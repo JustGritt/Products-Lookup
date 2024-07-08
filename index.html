@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Lookup</title>
+</head>
+
+<body>
+  <main class="h-screen">
+    <nav class="py-5 border-b-default border-solid border-gray-200 z-10 w-full bg-inherit lg:fixed" id="topnav">
+      <div class="mx-auto max-w-7xl lg:px-8">
+        <div class="w-full flex flex-col lg:flex-row">
+          <div class="hidden w-full lg:flex justify-between max-lg:bg-white py-5 max-lg:mt-1 max-lg:px-4 max-lg:shadow-lg max-lg:shadow-gray-200 max-lg:h-auto max-lg:overflow-auto transition-all duration-500 delay-200" id="navbar">
+            <ul class="flex lg:items-center max-lg:gap-4 max-lg:mb-4 flex-col mt-4 lg:flex-1 md:mt-0 lg:flex-row">
+              <li>
+                <a href="#"
+                  class="text-gray-500 text-sm font-medium hover:text-prime-blue-700 transition-all duration-500 mb-2 block lg:mr-6 lg:text-base md:mb-0 md:mr-3 hover:text-gray-900">About</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="text-gray-500 text-sm font-medium hover:text-prime-blue-700 transition-all duration-500 mb-2 block lg:mr-6 lg:text-base md:mb-0 md:mr-3 hover:text-gray-900">How to use?</a>
+              </li>
+            </ul>
+
+            <picture>
+              <img src="/assets/Logo.svg" alt="logo" class="h-14 w-auto" />
+            </picture>
+
+            <div class="flex lg:items-center justify-start flex-col lg:flex-row max-lg:gap-4 lg:flex-1 lg:justify-end">
+              <button
+                class="bg-indigo-50 text-indigo-600 rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-indigo-100">
+                Login
+              </button>
+              <button
+                class="bg-indigo-600 text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm lg:ml-5 hover:bg-indigo-700">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="pt-8 lg:pt-32 bg-center bg-cover min-h-screen relative">
+      <!-- Background -->
+      <div class="absolute bottom-32 left-6 inset-x-0 h-80 max-w-lg bg-gradient-to-tr from-violet-200 via-red-200 to-yellow-300 blur-[118px]"></div>
+      <div class="absolute top-48 right-16 inset-x-0 ml-auto h-80 max-w-lg bg-gradient-to-tr from-orange-200 via-pink-200 to-violet-300 blur-[118px]"></div>
+      <!-- End -->
+
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
+        <h1 class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl leading-[50px]">
+          Create your
+          <span class="text-indigo-600">Product Lookup</span>
+        </h1>
+        <p class="max-w-md mx-auto mt-8 text-center text-xl font-normal leading-7 text-gray-500 mb-9">
+          Simple and easy to use tool to help you create your customized components.
+        </p>
+        <a href="/upload"
+          class="w-full md:w-auto mb-14 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500">
+          Try it now
+          <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
+              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <div class="flex justify-center ">
+          <img src="/assets/Mockup.png" alt="Mockup" class="shadow-xl" />
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
