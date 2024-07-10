@@ -46,9 +46,9 @@ return `
                 </form>
 
                 <p class="mt-10 text-center text-sm text-gray-500">
-                    Not a member yet?
-                    <a href="/register" class="block mt-2 font-semibold leading-6 text-indigo-700 hover:text-indigo-600">
-                        Create an account now
+                    Already a member?
+                    <a href="/login" class="block mt-2 font-semibold leading-6 text-indigo-700 hover:text-indigo-600">
+                        Sign in now
                     </a>
                 </p>
             </div>

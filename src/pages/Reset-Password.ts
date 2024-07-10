@@ -1,11 +1,11 @@
-import renderBackgroundTexture from "../components/BackgroundTexture.ts";
+import renderBackgroundTextureAlt from "../components/BackgroundTextureAlt.ts";
 
 export default function renderResetPassword() {
 return `
 
     <!-- Hero -->
     <section class="pt-8 lg:pt-32 bg-center bg-cover relative h-[70svh]">
-        ${renderBackgroundTexture()}
+        ${renderBackgroundTextureAlt()}
 
         <div class="mx-auto max-w-lg px-4 sm:px-6 pt-4 pb-16 relative text-center bg-white/80 rounded-xl">
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
