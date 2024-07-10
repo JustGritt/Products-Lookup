@@ -7,7 +7,7 @@ return `
     <section class="pt-8 lg:pt-32 bg-center bg-cover relative h-[70svh]">
         ${renderBackgroundTexture()}
 
-        <div class="mx-auto max-w-lg px-4 sm:px-6 pt-8 pb-16 relative text-center bg-white/80 rounded-xl">
+        <div class="mx-auto max-w-lg px-4 sm:px-6 pt-8 pb-16 relative text-center bg-white/80 rounded-xl shadow-2xl">
             <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                 <form class="space-y-6" action="#" method="POST">
                     <div>
