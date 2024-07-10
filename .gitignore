@@ -7,10 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
+
+# Build output directories
 dist
 dist-ssr
+
+# Local environment files
 *.local
+.env
+.env.*.local
+
+# Vite cache
+.vite
+.vitepress/cache
 
 # Editor directories and files
 .vscode/*
@@ -23,3 +34,12 @@ dist-ssr
 *.sln
 *.sw?
 
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# macOS
+*.DS_Store
+
+# Windows
+*.lnk

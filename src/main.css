@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/satoshi-regular-webfont.woff2') format('woff2'), url('/fonts/satoshi-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Satoshi', 'Poppins', sans-serif;
+}
